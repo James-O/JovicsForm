@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+	<title>Survey Form</title>
+</head>
+<body>
+	<header id="header">
+		<h1>Welcome To My Survey Page</h1>
+	</header>
+	<main id="main">
+		<div>
+			<h1 id="title">JovicsTech Survey Form</h1>
+			<p id="description">Thank you for taking the time to 
+			  help us  improve the platform</p>
+		</div>
+		<div>
+			<form id="survey-form">
+				<label for="name" id="name-label" class="form">Name<br><br>
+				<input type="text" name="text" id="name" placeholder="Enter your name here" required></label><br><br>
+
+				<label for="email" id="email-label" class="form">Email<br><br>
+				<input type="email" name="email" id="email" placeholder="Enter your email address here" required></label><br><br>
+
+				<label for="number" id="number-label" class="form">Age(optional)<br><br>
+				<input type="number" name="age" id="number" min="10" max="99" placeholder="Age"></label><br><br>
+				
+				<label for="dropdown" class="form">Which option best describes your current role?</label><br><br>
+				<select id="dropdown">
+				    <option value="" disabled selected>Select current role</option>
+				    <option >Student</option>
+				    <option >Full Time Job</option>
+				    <option >Full Time Learner</option>
+				    <option >Prefer not to say</option>
+				    <option >Others</option>
+				</select><br><br>
+
+                <legend>Would you recommend JovicsTech to a friend?</legend><br>
+				<label>
+					<input type="radio" name="radio-botton" checked value="radio">Definately
+				</label><br><br>
+				<label>
+					<input type="radio" name="radio-botton" value="radio">Maybe
+				</label><br><br>
+				<label>
+					<input type="radio" name="radio-botton" value="radio">Not sure
+				</label><br><br>
+				
+
+				<label for="role" class="form">What is your favorite feature of JovicsTech?</label><br><br>
+				<select id="role">
+				    <option value="" disabled selected >Select an Option</option>
+				    <option >Challanges</option>
+				    <option >Projects</option>
+				    <option >Community</option>
+				    <option >Open source</option>
+				</select><br><br>
+
+				<legend>What would you like to see improved? (Check all that apply)</legend><br>
+				<label>
+					<input type="checkbox" name="check-box" value="check-box">Front-End Projects<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">Back-End projects<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">Data Visualization<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">Challanges<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">Open Source Community<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">Gitter Help Room<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">Videos<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">City Meetups<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">Wiki<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">Forum<br>
+				</label>
+				<label>
+					<input type="checkbox" name="check-box" value="">Additional Courses<br><br>
+				</label>
+				
+
+                <label for="textarea" class="form">Any Comments or suggestions?<br><br>
+				<textarea placeholder="Enter your Comments here..." id="textarea"></textarea></label><br><br>
+				<input type="submit" name="submit-button" id="submit"><br>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<h3>
+			All right reserved &copy; <strong>James Survey Form Page</strong>
+		</h3>
+	</footer>
+</body>
+</html>

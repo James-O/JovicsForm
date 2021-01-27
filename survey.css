@@ -1,0 +1,63 @@
+body{
+	background-color: #006600;
+	opacity: 0.9;
+}
+#header,footer{
+	text-align: center;
+}
+#main{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	opacity: 0.9;
+	background-image: url(img/survey-img.jpeg);
+}
+#title,#description{
+	text-align: center;
+	color: #ffffff;
+}
+#survey-form{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: black;
+	opacity: 0.9;
+	padding: 50px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#name,#email,#number,#dropdown,#role{
+	width: 500px;
+	height: 40px;
+	font-size: 18px;
+}
+#name-label{
+	margin-top: 20px;
+}
+#textarea{
+	width: 500px;
+	height: 120px;
+	font-size: 18px;
+}
+#submit{
+	width: 500px;
+	height: 40px;
+	background-color: #006600;
+	font-size: 20px;
+	opacity: 0.9;
+}
+@media only screen and (max-width: 760px)
+{
+	#survey-form{
+	width: 300px;
+	padding: 50px;
+	font-size: 18px;
+	border-radius: 10px;
+}
+	#name,#email,#number,#dropdown,#role,#textarea,#submit{
+	width: 250px;
+	height: 25px;
+	font-size: 14px;
+}
+}
